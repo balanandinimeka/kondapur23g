@@ -1,0 +1,113 @@
+! /bin/bash
+groupadd -g 6000 ind
+groupadd -g 6100 pak
+groupadd -g 6200 aus
+groupadd -g 6300 eng
+groupadd -g 6400 sa
+groupadd -g 6500 nd
+groupadd -g 6600 afg
+groupadd -g 6700 sl
+groupadd -g 6800 bng
+groupadd -g 6900 nz
+ 
+useradd -u 6001 -g 6000  -s /bin/bash -d /home/yuvi yuvi
+useradd -u 6002 -g 6000  -s /bin/bash -d /home/gill gill
+useradd -u 6003 -g 6000  -s /bin/bash -d /home/iyer iyer
+useradd -u 6004 -g 6000  -s /bin/bash -d /home/msd msd
+useradd -u 6005 -g 6000  -s /bin/bash -d /home/virat virat
+useradd -u 6101 -g 6100  -s /bin/bash -d /home/amer amer
+useradd -u 6102 -g 6100  -s /bin/bash -d /home/ali ali
+useradd -u 6103 -g 6100  -s /bin/bash -d /home/dut dut
+useradd -u 6104 -g 6100  -s /bin/bash -d /home/rauf rauf
+useradd -u 6105 -g 6100  -s /bin/bash -d /home/mir mir
+useradd -u 6201 -g 6200  -s /bin/bash -d /home/max max
+useradd -u 6202 -g 6200  -s /bin/bash -d /home/lee lee
+useradd -u 6203 -g 6200  -s /bin/bash -d /home/pat pat
+useradd -u 6204 -g 6200  -s /bin/bash -d /home/alex alex
+useradd -u 6205 -g 6200  -s /bin/bash -d /home/josh josh
+useradd -u 6301 -g 6300  -s /bin/bash -d /home/ben ben
+useradd -u 6302 -g 6300  -s /bin/bash -d /home/samm samm
+useradd -u 6303 -g 6300  -s /bin/bash -d /home/jos jos
+useradd -u 6304 -g 6300  -s /bin/bash -d /home/tom tom
+useradd -u 6305 -g 6300  -s /bin/bash -d /home/bell bell
+useradd -u 6401 -g 6400  -s /bin/bash -d /home/kock kock
+useradd -u 6402 -g 6400  -s /bin/bash -d /home/abd abd
+useradd -u 6403 -g 6400  -s /bin/bash -d /home/mark mark
+useradd -u 6404 -g 6400  -s /bin/bash -d /home/dale dale
+useradd -u 6405 -g 6400  -s /bin/bash -d /home/jp jp
+useradd -u 6501 -g 6500  -s /bin/bash -d /home/ryan ryan
+useradd -u 6502 -g 6500  -s /bin/bash -d /home/butt butt 
+useradd -u 6503 -g 6500  -s /bin/bash -d /home/bas bas
+useradd -u 6504 -g 6500  -s /bin/bash -d /home/teja teja
+useradd -u 6505 -g 6500  -s /bin/bash -d /home/van van
+useradd -u 6601 -g 6600  -s /bin/bash -d /home/shah shah
+useradd -u 6602 -g 6600  -s /bin/bash -d /home/nabi nabi
+useradd -u 6603 -g 6600  -s /bin/bash -d /home/noor noor
+useradd -u 6604 -g 6600  -s /bin/bash -d /home/haq haq
+useradd -u 6605 -g 6600  -s /bin/bash -d /home/riaz riaz
+useradd -u 6701 -g 6700  -s /bin/bash -d /home/san san
+useradd -u 6702 -g 6700  -s /bin/bash -d /home/vas vas
+useradd -u 6703 -g 6700  -s /bin/bash -d /home/jay jay
+useradd -u 6704 -g 6700  -s /bin/bash -d /home/dil dil
+useradd -u 6705 -g 6700  -s /bin/bash -d /home/upul upul
+useradd -u 6801 -g 6800  -s /bin/bash -d /home/das das
+useradd -u 6802 -g 6800  -s /bin/bash -d /home/afif afif
+useradd -u 6803 -g 6800  -s /bin/bash -d /home/naim naim
+useradd -u 6804 -g 6800  -s /bin/bash -d /home/alam alam
+useradd -u 6805 -g 6800  -s /bin/bash -d /home/abul abul
+useradd -u 6901 -g 6900  -s /bin/bash -d /home/kane kane
+useradd -u 6902 -g 6900  -s /bin/bash -d /home/ish ish
+useradd -u 6903 -g 6900  -s /bin/bash -d /home/tim tim
+useradd -u 6904 -g 6900  -s /bin/bash -d /home/will will
+useradd -u 6905 -g 6900  -s /bin/bash -d /home/mat mat
+echo
+echo yuvi |passwd --stdin yuvi
+echo gill |passwd --stdin gill 
+echo iyer |passwd --stdin iyer
+echo msd |passwd --stdin msd 
+echo virat |passwd --stdin virat
+echo amer |passwd --stdin amer
+echo ali |passwd --stdin  ali
+echo dut |passwd --stdin dut
+echo rauf |passwd --stdin rauf
+echo mir |passwd --stdin mir
+echo max |passwd --stdin max
+echo lee |passwd --stdin lee
+echo pat |passwd --stdin pat
+echo alex |passwd --stdin alex
+echo josh |passwd --stdin josh
+echo ben |passwd --stdin ben
+echo samm  |passwd --stdin samm
+echo jos |passwd --stdin jos
+echo tom |passwd --stdin tom
+echo bell |passwd --stdin bell
+echo kock |passwd --stdin kock
+echo abd |passwd --stdin abd
+echo mark |passwd --stdin mark
+echo dale |passwd --stdin dale
+echo jp |passwd --stdin jp
+echo ryan |passwd --stdin ryan
+echo butt |passwd --stdin butt
+echo bas |passwd --stdin bas
+echo teja |passwd --stdin teja
+echo van |passwd --stdin  van
+echo shah |passwd --stdin shah
+echo nabi |passwd --stdin nabi
+echo noor |passwd --stdin noor
+echo haq |passwd --stdin haq
+echo riaz |passwd --stdin riaz
+echo san |passwd --stdin san
+echo vas |passwd --stdin vas
+echo jay |passwd --stdin jay
+echo dil |passwd --stdin dil
+echo upul |passwd --stdin upul
+echo das |passwd --stdin das
+echo afif |passwd --stdin afif
+echo naim |passwd --stdin naim
+echo alam |passwd --stdin alam
+echo abul |passwd --stdin abul
+echo kane |passwd --stdin kane
+echo ish |passwd --stdin ish
+echo tim |passwd --stdin tim
+echo will |passwd --stdin will
+echo mat |passwd --stdin  mat
